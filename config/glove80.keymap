@@ -47,11 +47,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
-            quick-tap-ms = <280>;
-            require-prior-idle-ms = <280>;
+            tapping-term-ms = <1000>;
+            quick-tap-ms = <1000>;
+            require-prior-idle-ms = <1000>;
             flavor = "balanced";
-            hold-trigger-on-release;
         };
     };
 
